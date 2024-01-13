@@ -8,6 +8,11 @@ public:
         for (int i = 1; i < size; i++) {
             if (nums[i] != 0) {
                 while (i > 0 && nums[i - 1] == 0) {
+                    // used nums[i - 1] != 0 , did not work
+                    // reason - when ever iterator encounters a non_zero element
+                    // this while loop check if nums[i - 1] != 0 
+                    // in this case nums[i - 1] != 0 is false, so this loop
+                    // does not get executed. (use == 0)
                     int temp = nums[i];
                     nums[i] = nums[i - 1];
                     nums[i - 1] = temp;

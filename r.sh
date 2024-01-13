@@ -1,1 +1,1 @@
-g++ ./move_zeros.cpp -o a && ./a
+g++ ./merge_sorted_array.cpp -o a && ./a
