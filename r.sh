@@ -1,1 +1,1 @@
-g++ ./search_insert_pos.cpp -o a && ./a
+g++ ./move_zeros.cpp -o a && ./a
