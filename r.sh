@@ -1,1 +1,1 @@
-g++ ./merge_sorted_array.cpp -o a && ./a
+g++ ./eval_reverse_polish_notation.cpp -o a && ./a
