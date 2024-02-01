@@ -1,1 +1,1 @@
-g++ ./eval_reverse_polish_notation.cpp -o a && ./a
+time g++ ./majority_ele.cpp -o a && ./a
