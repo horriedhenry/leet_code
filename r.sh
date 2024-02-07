@@ -1,1 +1,1 @@
-time g++ ./majority_ele.cpp -o a && ./a
+time g++ ./roam_to_int.cpp -o a && ./a
