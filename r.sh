@@ -1,1 +1,2 @@
-time g++ ./rem_ll_ele.cpp -o a && ./a
+time g++ ./reverse_string.cpp -o a && ./a
+rm -rf ./a
